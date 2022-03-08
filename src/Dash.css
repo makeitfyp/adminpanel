@@ -1,0 +1,362 @@
+.DashApp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 90%;
+    background-color: black;
+    border: 1px solid black;
+    margin-top: 20px;
+  }
+  .inputCover{
+    
+  }
+  .DashBoard{
+    width:100%;
+    height: 100%;
+    padding-bottom:5%;
+    background-color: white;
+    border: 1px solid black;
+  }
+  #dashRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  #dashSectionL{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+  }
+  #dashSectionL p{
+    font-weight: 100;
+    font-size:24px;
+    color: black;
+  }
+  #dashOptions{
+    width: 80%;
+    border: 1px solid black;
+    margin-left:10%;
+    display: flex;
+    flex-direction: column;
+  }
+  #dashOptionsButton{
+    width: 60%;
+    margin-bottom: 20px;
+    padding: 12px 20px;
+    margin-left: 20%;
+    box-sizing: border-box;
+    background: transparent;
+    color: black;
+    height: 50px;
+    border-top: 1px solid #FFFFFF99;
+    border-bottom: 1px solid #FFFFFF99;
+    border-right: 1px solid #FFFFFF99;
+    border-left: 1px solid #FFFFFF99;
+    border-radius: 20px 20px 20px 20px;
+    background-color: grey;
+    border: 1px solid black;
+  }
+  #dashOptionsButton:hover{
+    outline: none;
+    background-color: #FFFFFF60;
+    color: black;
+    cursor: pointer;
+  }
+  #dashOptionsButtonLast{
+    width: 60%;
+    margin-bottom: 20px;
+    padding: 12px 20px;
+    margin-left: 20%;
+    box-sizing: border-box;
+    background: transparent;
+    color: black;
+    height: 50px;
+    border-top: 1px solid #FFFFFF99;
+    border-bottom: 1px solid #FFFFFF99;
+    border-right: 1px solid #FFFFFF99;
+    border-left: 1px solid #FFFFFF99;
+    border-radius: 20px 20px 20px 20px;
+    background-color: grey;
+    border: 1px solid black;
+    margin-bottom: 20%;
+  }
+  #rInpt{
+    background-color: grey;
+  }
+  #dashStatBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #dashOptionsButtonLast:hover{
+    outline: none;
+    background-color: #FFFFFF60;
+    color: black;
+    cursor: pointer;
+  }
+  #dashSectionR{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  }
+  #dashSectionR p{
+    font-weight: 100;
+    font-size:24px;
+    color: black;
+    padding-top: 1%;
+  }
+  #dashStatsReportsUpdate{
+    width: 20%;
+    margin-bottom: 20px;
+    margin-top:5% ;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background: transparent;
+    color: black;
+    height: 50px;
+    border-top: 1px solid #FFFFFF99;
+    border-bottom: 1px solid #FFFFFF99;
+    border-right: 1px solid #FFFFFF99;
+    border-left: 1px solid #FFFFFF99;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    border: 1px solid grey;
+  }
+  #dashStatsReportsUpdate:hover{
+    outline: none;
+    background-color: grey;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+  .dashLoginBg{
+    width: 50%;
+    margin-left: 25%;
+  }
+  .dashCreateBox{
+    margin-top: 1;
+    text-align: center;
+    background-color: black;
+    border: 1px solid black;
+    margin-top: 20px;
+  }
+  .reportBox{
+    margin-left: 10%;
+    width: 80%;
+    background-color: grey;
+    padding-bottom: 30px;
+    border: 1px solid black;
+    margin-top: 20px;
+  }
+  #reportHeader{
+    font-size: 24px;
+    line-height: 64px;
+    color: white;
+    font-weight: 100;
+    margin-left: 10px;
+    text-align: center;
+  }
+  #reports{
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  }
+  #report{
+    width: 60%;
+    color: white;
+    border: 1px solid black;
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+  }
+  #report div{
+    width: 80%;
+  }
+  #name{
+    margin-left: 5%;
+    font-size: 16px; 
+    font-weight: 100;
+  }
+  #problem{
+    margin-left: 5%;
+    font-size: 16px; 
+    font-weight: 100;
+  }
+  #reportButton{
+    margin-right: 10%;
+    margin-top: 3%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background: transparent;
+    color: white;
+    height: 50px;
+    border-top: 1px solid #FFFFFF99;
+    border-bottom: 1px solid #FFFFFF99;
+    border-right: 1px solid #FFFFFF99;
+    border-left: 1px solid #FFFFFF99;
+    border-radius: 20px 20px 20px 20px;
+    background-color: grey;
+    width: fit-content;
+    margin-top: 10px;
+  }
+  #reportButton:hover{
+    outline: none;
+    background-color: #FFFFFF60;
+    color: black;
+    cursor: pointer;
+  }
+  #backBox{
+    display: flex;
+    flex-direction: row-reverse;
+    width: fit-content;
+  }
+  #recipe{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+  }
+  #recipeImg{
+    width: 100px;
+    height: 100px;
+  }
+  #rinfo{
+    color: white;
+    margin-left: 50px;
+  }
+  #rbuttonBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+  }
+  #rbutton{
+    width: fit-content;
+    background: transparent;
+    color: grey;
+    height: 50px;
+    border-top: 1px solid #FFFFFF99;
+    border-bottom: 1px solid #FFFFFF99;
+    border-right: 1px solid #FFFFFF99;
+    border-left: 1px solid #FFFFFF99;
+    background-color: white;
+  }
+  .recipeHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: end;
+  }
+    #rOptionsButton{
+    width: fit-content;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background: transparent;
+    color: white;
+    height: 50px;
+    border-top: 1px solid #FFFFFF99;
+    border-bottom: 1px solid #FFFFFF99;
+    border-right: 1px solid #FFFFFF99;
+    border-left: 1px solid #FFFFFF99;
+    border-radius: 20px 20px 20px 20px;
+    background-color: grey;
+    margin-right: 20px;
+  }
+  #rOptionsButton:hover{
+    outline: none;
+    background-color: #FFFFFF60;
+    color: black;
+    cursor: pointer;
+  }
+  .rButtonBox{
+    width: 50%;
+  }
+  .rHeaderBox{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+  }
+  #rbutton:hover{
+    outline: none;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+  }
+  @media only screen and (max-width: 1200px) {
+  #dashSectionL{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+  #dashSectionR{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+  }
+  #dashStatsReportsUpdate{
+    width: 30%;
+  }
+  
+  }
+  @media only screen and (max-width: 900px) {
+  #dashSectionL{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  #dashSectionR{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  #dashStatsReportsUpdate{
+    width: 40%;
+  }
+  }
+  @media only screen and (max-width: 400px) {
+  #dashRow{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  #dashSectionL{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  #dashSectionR{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  #dashStatsReportsUpdate{
+    width: 60%;
+  }
+  #dashOptionsButton{
+    width: 80%;
+    margin-left: 10%;
+  }
+  #dashOptionsButtonLast{
+    width: 80%;
+    margin-left: 10%;
+  }
+  #dashSectionR p{
+    font-weight: 100;
+    font-size:20px;
+    color: white;
+    padding-top: 0px;
+  }
+  .createBox{
+    background-image: linear-gradient(to bottom right, #03001e,#7303c0,#ec38bc);
+    height:100vh;
+  }
+  }
