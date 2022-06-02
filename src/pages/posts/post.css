@@ -1,0 +1,152 @@
+@media (min-width:1300px) and (max-width:1600px) {
+    .Posts {
+        height: 100vh;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    .Posts .Mainbody {
+        height: auto;
+        display: flex;
+        flex-flow: row nowrap;
+        width: 80vw;
+        padding-bottom: 3vh;
+        background-color: #FFFFFF;
+        margin-left: 1%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        border-radius: 10px;
+        padding-left: 5px;
+        margin-top: -100px;
+
+    }
+
+  
+
+    .Posts .Mainbody .ActivePosts {
+        flex: 0.5;
+        width: 100%;
+        align-self: center;
+        overflow-y: scroll ;
+        height: 80vh;
+        scrollbar-darkshadow-color: black;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        padding-bottom: 5%;
+        height: 50%;
+        padding-bottom: 10%;
+    }
+    .Posts .Mainbody .ActivePosts .button{
+        width: 50%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-top: 5%;
+        font-size: 18px;
+        padding-left: 4px;
+        padding-right: 4px;
+        border-radius: 5px;
+        background-color: #363740;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        color: #FFFFFF;
+    }
+
+    .Posts .Mainbody .ActivePosts .PostCard {
+        width: 80%;
+        display: flex;
+        flex-flow: column nowrap;
+        padding-bottom: 2%;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+        margin-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        align-items: center;
+        border-radius: 4px;
+
+    }
+
+    .Posts .Mainbody .ActivePosts .PostCard .userandtime {
+        align-self: flex-start;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+
+    .Posts .Mainbody .ActivePosts .PostCard .userandtime .posttext {
+        text-align: justify;
+        margin-bottom: 2px;
+        font-size: 30px;
+        margin-top: 0;
+        font-weight: 500;
+    } 
+
+    .Posts .Mainbody .ActivePosts .PostCard .image #image {
+        width: 240px;
+        height: 200px;
+        border-radius: 4%;
+    }
+
+    .Posts .Mainbody .DisabledPosts {
+        flex: 0.5;
+        width: 100%;
+        align-self: center;
+        overflow-y: scroll;
+        height: 80vh;
+        scrollbar-darkshadow-color: black;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        padding-bottom: 5%;
+        height: 50%;
+        padding-bottom: 10%;
+    }
+
+
+    .Posts .Mainbody .DisabledPosts .PostCard {
+        width: 80%;
+        display: flex;
+        flex-flow: column nowrap;
+        padding-bottom: 2%;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+        margin-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        align-items: center;
+        border-radius: 4px;
+
+    }
+
+
+    .Posts .Mainbody .DisabledPosts .PostCard .userandtime {
+        align-self: flex-start;
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+
+    .Posts .Mainbody .DisabledPosts .button{
+        width: 50%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-top: 5%;
+        font-size: 18px;
+        padding-left: 4px;
+        padding-right: 4px;
+        border-radius: 5px;
+        background-color: #363740;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        color: #FFFFFF;
+    }
+    .Posts .Mainbody .DisabledPosts .PostCard .userandtime .posttext {
+        text-align: justify;
+        margin-bottom: 2px;
+        font-size: 30px;
+        margin-top: 0;
+        font-weight: 500;
+    } 
+    .Posts .Mainbody .DisabledPosts .PostCard .image #image {
+        width: 240px;
+        height: 200px;
+        border-radius: 4%;
+    }
+
+}

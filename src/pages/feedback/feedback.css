@@ -1,0 +1,130 @@
+@media (min-width:1300px) and (max-width:1600px) {
+    .feedback {
+        height: 100vh;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    .feedback .Mainbody {
+        height: 88vh;
+        display: flex;
+        flex-flow: column nowrap;
+        width: 80vw;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+        background-color: #FFFFFF;
+        margin-left: 1%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        border-radius: 10px;
+        padding-left: 5px;
+    }
+
+    .feedback .Mainbody .FeedbackList {
+        display: flex;
+        flex-flow: column nowrap;
+        padding-left: 2%;
+        overflow-y: scroll;
+        cursor: pointer;
+        
+
+    }
+   
+
+    .feedback .Mainbody .FeedbackList .pendingFeedback {
+     
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        background-color: #00000030;
+        margin-top: 1%;
+        padding-left: 2%;
+        padding-right: 2%;
+        border: 1px solid wheat;
+    }
+
+    .feedback .Mainbody .FeedbackList .pendingFeedback p {
+        width: 30%;
+    }
+
+    .feedback .Mainbody .FeedbackList .seenFeedback {
+      
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        background-color: #DDDDDD30;
+        margin-top: 1%;
+        padding-left: 2%;
+        padding-right: 2%;
+        border: 1px solid bisque;
+    }
+
+    .feedback .Mainbody .FeedbackList .seenFeedback p {
+        width: 30%;
+
+    }
+
+    .feedback .Mainbody .oneFeedback {
+        display: flex;
+        flex-flow: column nowrap;
+        width: 50%;
+        padding-left: 150px;
+
+    }
+    
+    .feedback .Mainbody .oneFeedback span{
+        font-size: larger;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-right: 10px;
+
+    }
+
+    .feedback .Mainbody .oneFeedback .smallDiv {
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+
+    }
+
+    .feedback .Mainbody .oneFeedback .smallDiv .input {
+        width: 50%;
+        height: 30px;
+
+    }
+
+    .feedback .Mainbody .oneFeedback .smallDiv .button {
+        width: 50%;
+    }
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        font-weight: 100;
+      }
+      
+      td, th {
+        border: 1px solid #bceea159;
+        text-align: left;
+        padding: 8px;
+
+      }
+      
+    .feedback .Mainbody .oneFeedback .button {
+        width: 50%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-top: 5%;
+        font-size: 18px;
+        padding-left: 4px;
+        padding-right: 4px;
+        border-radius: 5px;
+        background-color: #363740;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        color: #FFFFFF;
+    }
+    .feedback .Mainbody .Deletebutton {
+        width: 20%;
+
+    }
+    
+}

@@ -1,0 +1,149 @@
+@media (min-width:1300px) and (max-width:1600px) {
+    .recipies {
+        height: 100vh;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    .recipies .MainBody {
+        height: 88vh;
+        display: flex;
+        flex-flow: column nowrap;
+        width: 80vw;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+        background-color: #FFFFFF;
+        margin-left: 1%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        border-radius: 10px;
+        padding-left: 5px;
+        overflow-y: hidden;
+    }
+
+    .recipies .MainBody .Form {
+        width: 90%;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+        overflow-y: scroll;
+        padding-top: 29px;
+    }
+
+    .recipies .MainBody .Form .recInput {
+        margin-top: 2%;
+        width: 95%;
+        font-size: 18px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 4px;
+        padding-right: 4px;
+        border-radius: 5px;
+        outline: none;
+    }
+
+    .recipies .MainBody .Form .button {
+        width: 50%;
+        margin-top: 5%;
+        font-size: 18px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 4px;
+        padding-right: 4px;
+        border-radius: 5px;
+        background-color: #363740;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        color: #FFFFFF;
+    }
+
+    .recipies .MainBody .topButtons {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 5%;
+        
+    }
+
+    .recipies .MainBody .topButtons .button {
+        width: 20%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        margin-top: 5%;
+        font-size: 18px;
+        padding-left: 4px;
+        padding-right: 4px;
+        border-radius: 5px;
+        background-color: #363740;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        color: #FFFFFF;
+    }
+
+    .recipies .MainBody .recipieList {
+        display: flex;
+        width: 95%;
+        flex-flow: row wrap;
+        margin-right: 2%;
+        margin-left: 2%;
+        justify-content: space-between;
+        height: 100%;
+        overflow-y: scroll;
+    }
+
+    .recipies .MainBody .recipieList .recipieCard {
+        height: 65vh;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 34%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        display: block;/* or inline-block */
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: left;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        border-radius: 2%;
+        justify-content: flex-start
+    }
+
+    .recipies .MainBody .recipieList .recipieCard p {
+        font-size: 14x;
+        text-align: left;
+        margin-bottom: 0;
+        margin-top: 4px;
+
+    }
+
+    .recipies .MainBody .recipieList .recipieCard #reciepieImage {
+        height: 40%;
+        width: 80%;
+        align-self: center;
+        margin-top: 2%;
+        margin-bottom: 1%;
+        border-radius: 4%;
+    }
+
+    .recipies .MainBody .recipieList .recipieCard .button {
+        width: 50%;
+        align-self: center;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-top: 5%;
+        font-size: 18px;
+        padding-left: 4px;
+        padding-right: 4px;
+        border-radius: 5px;
+        background-color: #363740;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        color: #FFFFFF;
+    }
+
+    .recipies .MainBody .recipieList .recipieCard a {
+        text-decoration: none;
+        text-align: center;
+    }
+}

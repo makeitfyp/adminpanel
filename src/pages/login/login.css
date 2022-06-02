@@ -1,0 +1,60 @@
+@media (min-width:1300px) and (max-width:1600px) {
+    .Login {
+        display: flex;
+        flex: 1;
+        flex-flow: column nowrap;
+        justify-content: center;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #363740;
+    }
+
+    .Login .Form {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .Login .Form form {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFFFFF;
+        padding-top: 15px;
+        padding-bottom: 40px;
+        width: 40vw;
+        margin-top: 10vh;
+        border-radius: 10px;
+    }
+
+    .Login .Form form input {
+        width: 70%;
+        outline: none;
+        border: 1px solid black;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        font-size: 18px;
+        font-weight: 600;
+        background-color: #fff;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .Login .Form form #button {
+        background-color: #363740;
+        width: 74%;
+        color: #fff;
+    }
+
+    .Login .Form form #button:hover {
+        background-color: #fff;
+        color: black;
+    }
+}

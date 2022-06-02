@@ -1,0 +1,63 @@
+@media (min-width:1300px) and (max-width:1600px) {
+    .Profile {
+        height: 100vh;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    .Profile .Content {
+        height: 88vh;
+        display: flex;
+        flex-flow: column nowrap;
+        width: 80vw;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+        background-color: #FFFFFF;
+        margin-left: 1%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        border-radius: 10px;
+    }
+
+    .Profile .Content .Email {
+        align-self: center;
+        display: flex;
+        flex-flow: column nowrap;
+        width: 40vh;
+        align-items: center;
+    }
+
+    .Profile .Content .Password {
+        align-self: center;
+        display: flex;
+        flex-flow: column nowrap;
+        width: 40vh;
+        align-items: center;
+    }
+
+    .Profile .Content .input {
+        margin-top: 4%;
+        margin-bottom: 2%;
+        width: 95%;
+        font-size: 18px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 4px;
+        padding-right: 4px;
+        border-radius: 5px;
+        outline: none;
+    }
+
+    .Profile .Content .button {
+        margin-top: 5%;
+        width: 100%;
+        font-size: 18px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 4px;
+        padding-right: 4px;
+        border-radius: 5px;
+        background-color: #363740;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        color: #FFFFFF;
+    }
+}

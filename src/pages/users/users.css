@@ -1,0 +1,129 @@
+@media (min-width:1300px) and (max-width:1600px) {
+    .user {
+        height: auto;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    .user .MainBody {
+        height: auto;
+        display: flex;
+        flex-flow: column nowrap;
+        width: 80vw;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+        background-color: #FFFFFF;
+        margin-left: 1%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        border-radius: 10px;
+        padding-left: 5px;
+    }
+    .toptitle{
+        text-align: center;
+    }
+
+    .user .MainBody .Form {
+        width: 50%;
+        align-self: center;
+        align-items: center;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    .user .MainBody .Form .buttonsDiv{
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-top: 4%;
+    }
+    .user .MainBody .Form .buttonsDiv #button {
+        width: 30%;
+        text-align: center;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+        background-color: #363740;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        color: #FFFFFF;
+    }
+
+    .user .MainBody .userslist {
+        align-items: center;
+        width: 100%;
+    }
+
+    .user .MainBody .topButotns {
+        display: flex;
+        width: 100%;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+
+    .user .MainBody .topButotns #button {
+        width: 25%;
+        background-color: #363740;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        color: #FFFFFF;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        text-align: 'center';
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .user .MainBody .topButotns #input {
+        width: 50%;
+        font-size: 18px;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 4px;
+        padding-right: 4px;
+        border-radius: 5px;
+        outline: none;
+    }
+
+    .user .MainBody .userslist h1 {
+        align-self: center;
+        text-align: center;
+        color: #363740;
+        font-weight: bold;
+        font-size: 35px;
+    }
+
+    .user .MainBody .userslist .userdiv {
+        background-color: aliceblue;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 95%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        padding-right: 2%;
+        padding-left: 2%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+    .user .MainBody .userslist .userdiv label {
+        width: 20%;
+        color: #FFFFFF;
+        height: 10%;
+        color: #363740;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        text-align: left;
+    }
+
+    .user .MainBody .userslist .userdiv #button {
+        width: 20%;
+        background-color: #363740;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        color: #FFFFFF;
+        height: 10%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        text-align: 'center';
+    }
+}

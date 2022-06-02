@@ -1,0 +1,35 @@
+@media (min-width:1300px) and (max-width:1600px) {
+    .Dashboard {
+        height: 100vh;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    .Dashboard .Details {
+        height: auto;
+        display: flex;
+        flex-flow: column nowrap;
+        width: 80vw;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+        background-color: #FFFFFF;
+        margin-left: 1%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        border-radius: 10px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .Dashboard .Details .DetailsGroup {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        border:1px solid black;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .Dashboard .Details .DetailsGroup h1 {
+        font-size: 30px;
+        color: black;
+    }
+}
